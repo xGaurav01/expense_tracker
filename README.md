@@ -38,13 +38,16 @@ This is the backend of an **Expense Tracker** application built with **Python**,
    cd expense_tracker
    
 2. **Create a virtual environment**
+   ```bash
     python -m venv expense
     source expense/bin/activate
    
 4. **Install dependencies**
-     pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 5. **Set up .env file**
+   
      DB_HOST=localhost
      DB_USER=your_db_user
      DB_PASSWORD=your_db_password
