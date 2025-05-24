@@ -48,11 +48,11 @@ This is the backend of an **Expense Tracker** application built with **Python**,
 
 5. **Set up .env file**
    
-     DB_HOST=localhost
-     DB_USER=your_db_user
-     DB_PASSWORD=your_db_password
-     DB_NAME=expense_db
-     SECRET_KEY=your-secret-key
+     - DB_HOST=localhost
+     - DB_USER=your_db_user
+     - DB_PASSWORD=your_db_password
+     - DB_NAME=expense_db
+     - SECRET_KEY=your-secret-key
 
 
 
