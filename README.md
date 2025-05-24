@@ -1,17 +1,22 @@
-📊 Expense Tracker Backend
-This is a backend project for an Expense Tracker application, built using Python, Flask, and MySQL.
+# 💼 Expense Tracker Backend
 
-🔧 Features
-🔐 User Authentication: Supports user registration, login, and session management.
+This is the backend of an **Expense Tracker** application built with **Python**, **Flask**, and **MySQL**.
 
-👤 User-Specific Data: Each user can manage their own expenses — securely and privately.
+## 🚀 Features
 
-📥 Data Fetching: Retrieves expenses from the MySQL database.
+- 🔐 **User Authentication**
+  - User registration and login
+  - Secure session management
+- 📊 **Expense Management**
+  - Add and view expenses
+  - Filter expenses by user
+- 🧹 **Data Processing**
+  - Fetches expense data from MySQL
+  - Cleans and formats the data
+  - Saves cleaned data as a CSV file (`process_data/cleaned_expenses.csv`)
+- ☁️ **WordCloud Generation**
+  - Generates a WordCloud from the `description` column of expenses
+  - Saved as an image file (`process_data/wordcloud_expenses.png`)
 
-🧹 Data Cleaning: Cleans and formats the fetched data.
+## 📁 Project Structure
 
-💾 CSV Export: Saves cleaned data as a CSV file in the process_data folder.
-
-☁️ WordCloud Generation: Creates a word cloud visualization based on the description column in the expenses table.
-
-This backend serves as the foundation for building a full-featured expense tracking system with user-specific insights.
