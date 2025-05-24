@@ -1,0 +1,4 @@
+Data Science is all about extracting insights from data.
+Python is a powerful language for Data Science.
+SQL helps us to manage structured data.
+Visualization helps in understanding the data.
