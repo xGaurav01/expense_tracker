@@ -1,9 +1,14 @@
 import pymysql
+from dotenv import load_dotenv
+import os
 
-DB_HOST = 'localhost'
-DB_USER = 'pythonuser'
-DB_PASSWORD = 'Python@1234'
-DB_NAME = 'expense_db'
+# Load environment variables from .env file
+load_dotenv()
+
+DB_HOST = os.getenv('DB_HOST')
+DB_USER = os.getenv('DB_USER')
+DB_PASSWORD = os.getenv('DB_PASSWORD')
+DB_NAME = os.getenv('DB_NAME')
 
 def get_connection():
     return pymysql.connect(

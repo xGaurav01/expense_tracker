@@ -2,8 +2,13 @@
 import jwt
 from flask import request, jsonify
 from functools import wraps
+import os
+from dotenv import load_dotenv
 
-SECRET_KEY = 'your-secret-key'
+load_dotenv()
+
+
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 def generate_token(user_id):
     payload = {'user_id': user_id}
