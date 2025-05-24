@@ -20,3 +20,36 @@ This is the backend of an **Expense Tracker** application built with **Python**,
 
 ## 📁 Project Structure
 
+
+## 🔧 Tech Stack
+
+- Python
+- Flask
+- MySQL (via `pymysql`)
+- Pandas
+- Matplotlib
+- WordCloud
+
+## 🛠️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/expense_tracker.git
+   cd expense_tracker
+   
+2. **Create a virtual environment**
+    python -m venv expense
+    source expense/bin/activate
+   
+4. **Install dependencies**
+     pip install -r requirements.txt
+
+5. **Set up .env file**
+     DB_HOST=localhost
+     DB_USER=your_db_user
+     DB_PASSWORD=your_db_password
+     DB_NAME=expense_db
+     SECRET_KEY=your-secret-key
+
+
+
